@@ -122,7 +122,7 @@ const Home = () => {
   return (
     <div className="bg-[#f8f8dc]">
       {/* Image Section */}
-      <div className="flex flex-col md:flex-row items-center justify-center min-h-screen p-4 gap-4">
+      <div className="flex flex-col md:flex-row items-center justify-center p-4 gap-4">
         {/* Left Side - Image Slider (70%) */}
         <div className="w-full md:w-7/10 max-w-xs sm:max-w-sm md:max-w-none relative overflow-hidden">
           <div className="relative w-full h-[250px] sm:h-[300px] md:h-[600px]">

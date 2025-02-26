@@ -27,7 +27,7 @@ const Navbar = () => {
           {/* Logo (Center on Mobile) */}
           <div className="mb-2 md:mb-0">
             <img
-              src="/src/assets/logo.png"
+              src="/images/logo.png"
               alt="Logo"
               className="w-16 h-16 object-contain"
             />

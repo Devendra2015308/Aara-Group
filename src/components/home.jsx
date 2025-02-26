@@ -6,34 +6,34 @@ import { FaWhatsapp } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 
 const images = [
-  "/src/assets/1.jpg",
-  "/src/assets/2.jpg",
-  "/src/assets/3.jpg",
-  "/src/assets/4.jpg",
-  "/src/assets/5.jpg",
+  "/images/1.jpg",
+  "/images/2.jpg",
+  "/images/3.jpg",
+  "/images/4.jpg",
+  "/images/5.jpg",
 ];
 
 const sections = [
   {
-    img: "/src/assets/6.png",
+    img: "/images/6.png",
     title: "स्वामी अभयानंद संस्कृत विद्यालय",
     description:
       "स्वामी अभ्यानंद वेद पाठशाला के अन्तर्गत 3 आचार्य एवं 21 विद्यार्थी वर्तमान में शुक्लयजुर्वेद, व्याकरण व आधुनिक शिक्षा भी प्राप्त करते है। साथ ही साथ स्वामी जी के प्रवचनों को पुस्तक रूप में प्रकाशित किया जाता है जिसमें लगभग 30 पुस्तकें प्रकाशित हो चुकी हैं। नित्य प्रति किसी विद्वान संत द्वारा सुबह स्वाध्याय एवं सायं सत्संग प्रवचन प्रत्येक रविवार हवन, स्वाध्याय, आदि।",
   },
   {
-    img: "/src/assets/7.png",
+    img: "/images/7.png",
     title: "स्वामी अभयानंद गौशाला समिति",
     description:
       "गौ रक्षा मानव समाज के लिए आवश्यक है। यहाँ तक कि स्वयं भगवान कृष्ण भी कहते हैं कि गायें उन्हें विशेष रूप से प्रिय हैं, वे गोपाल और गोविंदा के रूप में जाने जाते हैं और वृंदावन में गाय चराते हैं। केवल गायों को पालने से ही व्यक्ति बहुत ही प्राकृतिक और समृद्ध जीवन जी सकता है। अतः हमारे गौशाला के अंतर्गत गौरक्षा, संरक्षण एवं संवर्धन किया जाता है।",
   },
   {
-    img: "/src/assets/8.png",
+    img: "/images/8.png",
     title: "स्वामी अभयानंद पुस्तकालय",
     description:
       "स्वामी अभयानंद पुस्तकालय अंतर्गत, हमारे सदगुरुदेव भगवान के प्रवचनों का संकलन किया जाता है। अभी तक स्वामी जी के प्रवचनों को पुस्तक रूप में प्रकाशीत करने की पंक्ति में 30 पुस्तकें प्रकाशित की जा चुकी हैं।",
   },
   {
-    img: "/src/assets/9.png",
+    img: "/images/9.png",
     title: "दैनिक सत्संग",
     description:
       "इसका कार्य शुद्ध भक्ति जीवन की उन्नति के लिए अनुकूल एक शुद्ध और आध्यात्मिक रूप से सराबोर वातावरण उत्पन्न करना है। यहाँ प्रातः एवं सायं भगवत्नाम संकीर्तन एवं कथा वाचन किया जाता है।",
@@ -41,30 +41,30 @@ const sections = [
 ];
 
 const categories = [
-  { icon: "/src/assets/logo2.png", title: "गौशाला" },
-  { icon: "/src/assets/logo3.png", title: "संस्कृत विद्यालय" },
-  { icon: "/src/assets/logo4.png", title: "संस्कृत विद्यालय" },
-  { icon: "/src/assets/logo5.png", title: "सत्संग" },
-  { icon: "/src/assets/logo6.png", title: "भगवत आरती" },
+  { icon: "/images/logo2.png", title: "गौशाला" },
+  { icon: "/images/logo3.png", title: "संस्कृत विद्यालय" },
+  { icon: "/images/logo4.png", title: "संस्कृत विद्यालय" },
+  { icon: "/images/logo5.png", title: "सत्संग" },
+  { icon: "/images/logo6.png", title: "भगवत आरती" },
 ];
 
 const cardData = [
   {
     title: "ABOUT",
     description: "About Swami Abhyanand Ji",
-    icon: "/src/assets/logo7.png",
+    icon: "/images/logo7.png",
     bgColor: "bg-orange-400",
   },
   {
     title: "EVENTS",
     description: "Swami Abhyanand Ji Events",
-    icon: "/src/assets/logo8.png",
+    icon: "/images/logo8.png",
     bgColor: "bg-red-700",
   },
   {
     title: "BLOG",
     description: "Swami Abhyanand Ji Blog",
-    icon: "/src/assets/logo9.png",
+    icon: "/images/logo9.png",
     bgColor: "bg-orange-400",
   },
 ];
@@ -154,7 +154,7 @@ const Home = () => {
         {/* Right Side - Single Image (30%) */}
         <div className="w-full md:w-3/10 max-w-xs sm:max-w-sm md:max-w-none flex justify-center relative">
           <img
-            src="/src/assets/baba.jpg"
+            src="/images/baba.jpg"
             alt="Right Image"
             className="w-full h-[250px] sm:h-[300px] md:h-[600px] object-cover shadow-lg"
           />
@@ -169,7 +169,7 @@ const Home = () => {
         <div className="max-w-8xl mx-auto px-4">
           <div className="flex justify-center">
             <img
-              src="/src/assets/logo.png"
+              src="/images/logo.png"
               alt="Logo"
               className="w-12 h-12 mb-2"
             />
@@ -193,7 +193,7 @@ const Home = () => {
         <div className="mt-4">
           <div className="flex justify-center">
             <img
-              src="/src/assets/logo.png"
+              src="/images/logo.png"
               alt="Logo"
               className="w-12 h-12 mb-2"
             />
@@ -232,7 +232,7 @@ const Home = () => {
           {/* Section Title */}
           <div className="text-center">
             <img
-              src="/src/assets/logo.png"
+              src="/images/logo.png"
               alt="logo"
               className="mx-auto mb-2 w-12"
             />
@@ -246,7 +246,7 @@ const Home = () => {
             {/* Left - Blog Image */}
             <div>
               <img
-                src="/src/assets/2.jpg"
+                src="/images/2.jpg"
                 alt="Blog"
                 className="shadow-md w-full"
               />
@@ -280,7 +280,7 @@ const Home = () => {
           {/* Section Title */}
           <div className="text-center">
             <img
-              src="/src/assets/logo.png"
+              src="/images/logo.png"
               alt="logo"
               className="mx-auto mb-2 w-12"
             />
@@ -357,7 +357,7 @@ const Home = () => {
           {/* Top Section */}
           <div className="bg-[#fdf5cd] border border-yellow-300 p-4 shadow-md flex flex-col items-center text-center">
             <img
-              src="/src/assets/logo.png"
+              src="/images/logo.png"
               alt="Guruji"
               className="w-24 h-24 rounded-full mb-4"
             />
@@ -396,7 +396,7 @@ const Home = () => {
                     CLICK HERE
                   </button>
                   <img
-                    src="/src/assets/crowd.jpg"
+                    src="/images/crowd.jpg"
                     alt="Ashram"
                     className="w-16 h-10 mt-2 rounded-lg shadow-2xl border border-red-500"
                   />
@@ -429,7 +429,7 @@ const Home = () => {
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.8 }}
-              className="fixed top-42 right-4 bg-orange-200 rounded-lg shadow-lg border-2 border-orange-400 z-10"
+              className="fixed top-50 right-4 bg-orange-200 rounded-lg shadow-lg border-2 border-orange-400 z-10"
               style={{
                 boxShadow: "0 0 15px rgba(255, 165, 0, 0.8)",
               }}
